@@ -19,8 +19,8 @@ _site/index.html: $(wildcard *.html) _includes/pubs.html _config.yml \
 _site/wacas14/index.html: $(wildcard wacas14/*.md) _config.yml \
 	_layouts/wacas.html
 
-#clean:
-#	$(RM) -r _site _includes/pubs.html
+clean:
+	$(RM) -r _site _includes/pubs.html
 
 CSEHOST := bicycle.cs.washington.edu
 RSYNCARGS := --compress --recursive --checksum --itemize-changes \

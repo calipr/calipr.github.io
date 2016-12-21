@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calipr: DECAF: Probability Types</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/sampa.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="/blog/blog.xml">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="https://twiki-edlab.cs.umass.edu/pub/Main/TWikiPreferences/favicon.ico" type="image/vnd.microsoft.icon">
+    </head>
+    <body>      
+        <div class="container">
+          <div class="header">
+            <a href="/">
+                <img src="/img/calipr.jpg"
+                    srcset="/img/calipr.jpg 2x"
+                    alt="Calipr" id="logo">
+            </a>
+            <ul class="nav nav-pills pull-right">
+                  
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/">
+                        Home
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/research/">
+                        Research
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/publications.html">
+                        Publications
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/code.html">
+                        Code
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/people.html">
+                        People
+                      </a>
+                    </li>
+                  
+            </ul>
+          </div>
+
+          
+
+  <h2>DECAF: Probability Types</h2>
+
+          
+<div class="content">
+<p>Approximate computing needs programming systems that can bound the chance that a result will be wrong. DECAF (<strong>D</strong>ECAF, an <strong>E</strong>nergy-aware <strong>C</strong>ompiler to make <strong>A</strong>pproximation <strong>F</strong>lexible) is a language that uses <em>probability types</em> to control incorrectness.</p>
+
+<h3 id="paper">Paper</h3>
+
+<p><em>Probability Type Inference for Flexible Approximate Programming.</em>
+Brett Boston, <a href="http://homes.cs.washington.edu/%7Easampson/">Adrian Sampson</a>, <a href="http://homes.cs.washington.edu/%7Edjg/">Dan Grossman</a>, and <a href="http://homes.cs.washington.edu/%7Eluisceze/">Luis Ceze</a>.
+To appear in OOPSLA 2015.</p>
+
+<p>(We&rsquo;ll post a link to the final version of the paper when it&rsquo;s ready.)</p>
+
+<h2 id="source-code">Source Code</h2>
+
+<p>The source code for the compiler, simulator, and benchmarks is available for download. The compiler and simulator are modified versions of the <a href="/research/approximation/enerj.html#source-release">EnerJ infrastructure</a>. You will need three bundles of source code in total:</p>
+
+<ul>
+<li><a href="enerj-6e1c1193e10a.tar.gz">The <code>enerj</code> directory</a>, which contains the compiler and simulator.</li>
+<li><a href="checker-runtime-a8a1e794bb86.tar.gz">The <code>checker-runtime</code> directory</a>, a support library.</li>
+<li><a href="approx-within-apps-f55f9c0.tar.gz">The <code>approx-within-apps</code> directory</a>, the annotated benchmarks and associated scripts for collecting data.</li>
+</ul>
+
+<h3 id="building">Building</h3>
+
+<p>To build the system, follow <a href="https://bitbucket.org/adrian/enerj">the instructions for building EnerJ</a> with the following differences:</p>
+
+<ul>
+<li>Use <a href="http://types.cs.washington.edu/checker-framework/releases/1.8.0/checker-framework.zip">version 1.8.0</a> of the Checker Framework. (The original EnerJ compiler uses an older version.)</li>
+<li>To tell DECAF where to find the Checker Framework, set your <code>CHECKERFRAMEWORK</code> environment variable to point to the directory containing the &ldquo;checker&rdquo; directory. (Note that this differs from the <code>JSR308</code> variable used by the original EnerJ version.)</li>
+<li>You will need <a href="https://github.com/Z3Prover/z3">Z3</a>. We used version 4.3.1 in our experiments.</li>
+</ul>
+
+<h2 id="result-data">Result Data</h2>
+
+<p>You can download <a href="decaf-data-1.tar.gz">a tarball of JSON files</a> if you&rsquo;re interested in using the statistics described in the paper&rsquo;s evaluation.</p>
+
+<h3 id="main-results">Main Results</h3>
+
+<p>The main results in the DECAF paper consist of the frequency of different &ldquo;probability levels&rdquo; among the operations in the benchmarks. In the paper, the data is shown in Figure 3. The full details for these counts are compiled in the file <code>level_breakdown.json</code>.</p>
+
+<p>The data file is a JSON document containing an object whose keys are the benchmarks in the evaluation. Each benchmark is associated with an object with these keys:</p>
+
+<ul>
+<li>The numbers 2 through 9: These reflect the 8 machine architecture configurations we studied, each with a different number (from 2 to 9) of discrete probability levels for each operation. The JSON object for each of these keys gives the proportion of dynamic operations that ran at each probability level.</li>
+<li>&ldquo;continuous&rdquo;: A similar object reflecting an idealized machine with <em>no</em> discrete probability levels, i.e., the DECAF compiler is free to choose arbitrary distinct probabilities for every operation in the program.</li>
+<li>&ldquo;asterisks&rdquo;: By default, the discrete-level configurations are generated by a version of DECAF configured to <em>solve</em> for the hardware profile a priori. When this is intractable, we fall back to <em>rounding</em> after the fact. The &ldquo;asterisks&rdquo; list indicates the configurations where this fallback occurred. It corresponds to the asterisks along the x-axis in Figure 3.</li>
+</ul>
+
+<h3 id="raw-benchmark-data">Raw Benchmark Data</h3>
+
+<p>The tarball also contains the raw data for each benchmark. There are two files per benchmark: <code>*.continuous.json</code> and <code>*.discrete.json</code>. The former reflects unconstrained runs (i.e., no level-solving) and the latter shows runs with solved probability levels (when this was tractable). The former also contains data for when the continuous levels are rounded post facto.</p>
+
+<p>Each element in the data files corresponds to a configuration of the benchmark. Each configuration contains the number of approximate operations per probability level (&ldquo;approx&rdquo;), the number of precise operations (&ldquo;precise&rdquo;), the number of dynamically-tracked operations (&ldquo;dyn&rdquo;), and the total time in seconds it took to compile the benchmark (&ldquo;build_time&rdquo;).</p>
+
+</div>
+
+
+      <div class="footer">
+  <p>
+    <a href="https://www.cics.umass.edu/">College of Information and Computer Sciences</a>
+    at the
+    <a href="https://www.umass.edu/">University of Massachusetts, Amherst</a>
+  </p>
+  <p>
+    (Website theme courtesy <a href="https://github.com/uwsampa/research-group-web">SAMPA Lab</a>)
+  </p>
+</div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="/js/srcset-polyfill.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>

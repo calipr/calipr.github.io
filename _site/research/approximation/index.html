@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calipr: Approximate Computing</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/sampa.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="/blog/blog.xml">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="https://twiki-edlab.cs.umass.edu/pub/Main/TWikiPreferences/favicon.ico" type="image/vnd.microsoft.icon">
+    </head>
+    <body>      
+        <div class="container">
+          <div class="header">
+            <a href="/">
+                <img src="/img/calipr.jpg"
+                    srcset="/img/calipr.jpg 2x"
+                    alt="Calipr" id="logo">
+            </a>
+            <ul class="nav nav-pills pull-right">
+                  
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/">
+                        Home
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/research/">
+                        Research
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/publications.html">
+                        Publications
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/code.html">
+                        Code
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/people.html">
+                        People
+                      </a>
+                    </li>
+                  
+            </ul>
+          </div>
+
+          
+
+  <h2>Approximate Computing</h2>
+
+          
+<div class="content">
+<p>Improving energy efficiency is paramount in mobile devices and online service
+infrastructures. More importantly, as we approach the limits of silicon
+device scaling, improving energy efficiency is critical for increasing the capabilities of future computer systems.
+Many important applications such as computer vision, machine learning, signal
+processing, web search, augmented reality, big data analytics, etc.
+can inherently tolerate inaccurate computation. Approximate computing takes advantage of the inherent resilicence to imprecision and soft errors found in many applications to unlock significant energy gains.</p>
+
+<p>The key idea in approximate computing is to trade off accuracy in computation,
+storage, and communication for better performance and energy efficiency. It enables effective use of more aggressive
+transistor technology, analog computing techniques in a more general way, and new optimizations or code
+transformations (e.g., using fundamentally
+approximate models of execution like <a href="approximation/npu.html">neural networks</a>).</p>
+
+<p>Taking advantage of approximate computing, though, requires overcoming many
+technical challenges. Programmers need a reasonable model to write code for
+and they need tools for testing and debugging approximate programs. The system
+needs to offer meaningful guarantees of output quality otherwise unusable
+output actually leads to energy waste. Our research aims to develop a comprehensive solution across the entire system
+stack, including: language and runtime techniques to
+express and enforce quality metrics where inaccuracy can be tolerated (<a href="approximation/enerj.html">EnerJ</a>);
+programming tools including approximation recommenders and program synthesis frameworks (<a href="http://homes.cs.washington.edu/%7Ebornholt/papers/synapse-popl16.pdf">Synapse</a>);
+<a href="http://sampa.cs.washington.edu/papers/asplos15-approxdebug.pdf">quality monitoring and debugging</a> techniques;
+compilers to identify approximation opportunities (<a href="http://accept.rocks">ACCEPT</a>);
+architectural support for approximate micro-architectures (<a href="http://dl.acm.org/citation.cfm?id=2151008&amp;CFID=565598892&amp;CFTOKEN=44723956">Truffle</a>);
+hardware support for approximate acceleration (<a href="approximation/npu.html">NPU</a>, <a href="approximation/snnap.html">SNNAP</a>);
+approximate <a href="http://homes.cs.washington.edu/%7Easampson/media/papers/approxstorage-micro2013.pdf">data storage</a> and approximate communication
+services.</p>
+
+<h3 id="publications">Publications</h3>
+
+<p><a href="http://homes.cs.washington.edu/%7Ebornholt/papers/synapse-popl16.pdf">Optimizing Synthesis with Metasketches.</a>
+James Bornholt, Emina Torlak, Dan Grossman, and Luis Ceze.
+<strong>POPL 2016</strong></p>
+
+<p><a href="http://adriansampson.net/media/papers/decaf-oopsla2015.pdf">Probability Type Inference for Flexible Approximate Programming.</a>
+Brett Boston, Adrian Sampson, Dan Grossman, and Luis Ceze.
+<strong>OOPSLA 2015</strong></p>
+
+<p><a href="http://adriansampson.net/media/papers/cliche-snapl2015.pdf">Hardware–Software Co-Design: Not Just a Cliche.</a>
+Adrian Sampson, James Bornholt, and Luis Ceze.
+<strong>SNAPL 2015</strong></p>
+
+<p><a href="http://adriansampson.net/media/papers/approxdebug-asplos2015.pdf">Monitoring and Debugging the Quality of Results in Approximate Programs.</a>
+Michael Ringenburg, Adrian Sampson, Isaac Ackerman, Luis Ceze, and Dan Grossman.
+<strong>ASPLOS 2015</strong></p>
+
+<p><a href="http://adriansampson.net/media/papers/snnap-hpca2015.pdf">SNNAP: Approximate Computing on Programmable SoCs via Neural Acceleration.</a>
+Thierry Moreau, Mark Wyse, Jacob Nelson, Adrian Sampson, Hadi Esmaeilzadeh, Luis Ceze, and Mark Oskin.
+<strong>HPCA 2015</strong></p>
+
+<p><a href="http://www.cs.washington.edu/tr/2015/01/UW-CSE-15-01-01.pdf">ACCEPT: A Programmer-Guided Compiler Framework for Practical Approximate Computing.</a>
+Adrian Sampson, André Baixo, Benjamin Ransford, Thierry Moreau, Joshua Yip, Luis Ceze, Mark Oskin.
+<strong>UW Tech Report (2015)</strong></p>
+
+<p><a href="http://dl.acm.org/authorize?N83273">Expressing and Verifying Probabilistic Assertions.</a>
+Adrian Sampson, Pavel Panchekha, Todd Mytkowicz, Kathryn McKinley, Dan Grossman, and Luis Ceze.
+<strong>PLDI 2014</strong></p>
+
+<p><a href="http://dl.acm.org/authorize?N83272">Approximate Storage in Solid-State Memories.</a>
+Adrian Sampson, Jacob Nelson, Karin Strauss, and Luis Ceze. <strong>MICRO 2013</strong></p>
+
+<p><a href="http://homes.cs.washington.edu/%7Easampson/media/papers/npu-micro2012.pdf">Neural Acceleration for General-Purpose Approximate
+Programs.</a>
+Hadi Esmaeilzadeh, Adrian Sampson, Luis Ceze, and Doug Burger. <strong>MICRO
+2012</strong>.</p>
+
+<p><a href="http://www.cs.washington.edu/homes/asampson/media/papers/truffle-asplos2012.pdf">Architecture Support for Disciplined Approximate
+Programming.</a>
+Hadi Esmaeilzadeh, Adrian Sampson, Luis Ceze, and Doug Burger. <strong>ASPLOS
+2012</strong>.</p>
+
+<p><a href="http://homes.cs.washington.edu/%7Easampson/media/papers/enerj-pldi2011.pdf">EnerJ: Approximate Data Types for Safe and General Low-Power
+Computation.</a>
+Adrian Sampson, Werner Dietl, Emily Fortuna, Danushen Gnanapragasam,
+Luis Ceze, and Dan Grossman. <strong>PLDI 2011</strong>.</p>
+
+</div>
+
+
+      <div class="footer">
+  <p>
+    <a href="https://www.cics.umass.edu/">College of Information and Computer Sciences</a>
+    at the
+    <a href="https://www.umass.edu/">University of Massachusetts, Amherst</a>
+  </p>
+  <p>
+    (Website theme courtesy <a href="https://github.com/uwsampa/research-group-web">SAMPA Lab</a>)
+  </p>
+</div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="/js/srcset-polyfill.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>

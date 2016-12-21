@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calipr: EnerJ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/sampa.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="/blog/blog.xml">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="https://twiki-edlab.cs.umass.edu/pub/Main/TWikiPreferences/favicon.ico" type="image/vnd.microsoft.icon">
+    </head>
+    <body>      
+        <div class="container">
+          <div class="header">
+            <a href="/">
+                <img src="/img/calipr.jpg"
+                    srcset="/img/calipr.jpg 2x"
+                    alt="Calipr" id="logo">
+            </a>
+            <ul class="nav nav-pills pull-right">
+                  
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/">
+                        Home
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/research/">
+                        Research
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/publications.html">
+                        Publications
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/code.html">
+                        Code
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/people.html">
+                        People
+                      </a>
+                    </li>
+                  
+            </ul>
+          </div>
+
+          
+
+  <h2>EnerJ</h2>
+
+          
+<div class="content">
+<p>The power consumption of computers has traditionally been
+constrained by the need for strict correctness guarantees: processor
+voltage, for instance, must allow enough slack as to prevent even the
+rarest timing errors. However, recent work has shown that many modern
+applications do not require perfect correctness. An image renderer, for
+example, can tolerate occasional pixel errors without compromising
+overall quality of service. However, it is infeasible to completely
+abandon correctness guarantees—to do so would make development of
+reliable software difficult or impossible. EnerJ is an extension to Java
+that exposes hardware faults in a safe, principled manner. Simulation of
+selectively reliable hardware suggests that EnerJ programs can save
+large amounts of energy with only slight sacrifices to quality of
+service.</p>
+
+<p><strong>Contacts:</strong> <a href="http://homes.cs.washington.edu/%7Easampson/">Adrian Sampson</a>, <a href="http://homes.cs.washington.edu/%7Eluisceze/">Luis Ceze</a>, and <a href="http://homes.cs.washington.edu/%7Edjg/">Dan Grossman</a></p>
+
+<h3 id="publications">Publications</h3>
+
+<p><a href="http://homes.cs.washington.edu/%7Easampson/media/papers/enerj-pldi2011.pdf">EnerJ: Approximate Data Types for Safe and General Low-Power
+Computation.</a>
+Adrian Sampson, Werner Dietl, Emily Fortuna, Danushen Gnanapragasam,
+Luis Ceze, and Dan Grossman. <strong>PLDI 2011</strong>.</p>
+
+<p><a href="http://www.cs.washington.edu/homes/asampson/media/papers/truffle-asplos2012.pdf">Architecture Support for Disciplined Approximate
+Programming.</a>
+Hadi Esmaeilzadeh, Adrian Sampson, Luis Ceze, and Doug Burger. <strong>ASPLOS
+2012</strong>.</p>
+
+<p><a href="http://homes.cs.washington.edu/%7Easampson/media/papers/npu-micro2012.pdf">Neural Acceleration for General-Purpose Approximate
+Programs.</a>
+Hadi Esmaeilzadeh, Adrian Sampson, Luis Ceze, and Doug Burger. <strong>MICRO
+2012</strong>.</p>
+
+<p><strong>Correction:</strong> The above-linked version of the PLDI paper includes a
+correction over the originally published version. A bug in the program
+that computed the energy savings for each run overemphasized the savings
+from SRAM structures and undercounted the contribution of instructions.
+The corrected energy savings range from 7% to 38%.</p>
+
+<h3 id="source-release">Source Release</h3>
+
+<p>The type checker and simulation framework used in the evaluation of
+EnerJ are <a href="https://bitbucket.org/adrian/enerj">available for download</a>.
+The system is a proof of concept and available under the terms of <a href="http://matt.might.net/articles/crapl/">Matt
+Might&rsquo;s CRAPL</a>.</p>
+
+<p>To use the system, follow the instructions in <a href="https://bitbucket.org/adrian/enerj">the source repository&rsquo;s
+README</a>.</p>
+
+<h3 id="tech-report">Tech Report</h3>
+
+<p>A <a href="http://www.cs.washington.edu/homes/asampson/files/enerjproofs.pdf">technical
+report</a>
+accompanies the PLDI paper. It contains the full formalization of EnerJ
+and proves the non-interference property stated in the paper.</p>
+
+<h3 id="annotated-applications">Annotated Applications</h3>
+
+<p>The <a href="https://bitbucket.org/adrian/enerj-apps/get/tip.tar.bz2">annotated source
+code</a> for the
+applications used in the evaluation of EnerJ is also available. (Each
+benchmark&rsquo;s source code belongs to the respective copyright holder; the
+code is redistributed under the terms of each open-source license.) To
+compile and run these benchmarks, you need the EnerJ checker and
+simulation infrastructure (above).</p>
+
+<h3 id="data-analysis-scripts">Data Analysis Scripts</h3>
+
+<p>The <code>enerj-apps</code> repository also includes Python scripts that
+analyze the JSON statistics output of the EnerJ
+simulator. The scripts will probably work with Python 2.6 or later.
+Most importantly, <a href="https://bitbucket.org/adrian/enerj-apps/src/default/collect.py"><code>collect.py</code></a>
+is a monolithic script that compiles and executes
+benchmarks, evaluates error levels, and summarizes execution statistics.</p>
+
+</div>
+
+
+      <div class="footer">
+  <p>
+    <a href="https://www.cics.umass.edu/">College of Information and Computer Sciences</a>
+    at the
+    <a href="https://www.umass.edu/">University of Massachusetts, Amherst</a>
+  </p>
+  <p>
+    (Website theme courtesy <a href="https://github.com/uwsampa/research-group-web">SAMPA Lab</a>)
+  </p>
+</div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="/js/srcset-polyfill.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	
+	<title type="text" xml:lang="en">Calipr</title>
+    <link type="application/atom+xml" href="http://calipr.cs.umass.edu/blog/blog.xml" rel="self"/>
+    <link href="http://calipr.cs.umass.edu/"/>
+	<updated>2016-12-21T12:23:39-05:00</updated>
+    <id>http://calipr.cs.umass.edu/</id>
+	<author>
+		<name>the Sampa group</name>
+	</author>
+	
+	
+	<entry>
+        
+            <title>21 November 2016</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2016-11-21T00:00:00-05:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2016/11/21/rishab-graduation.html</id>
+		<content type="html">&lt;p&gt;Rishab successfully defended his thesis! Congratulations!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 August 2016</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2016-08-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2016/08/30/n2women-pg.html</id>
+		<content type="html">&lt;p&gt;Phillipa is nominated as N2Women&amp;rsquo;s 10 women in networking/communication to watch. Read about all the nominees
+&lt;a href=&quot;http://n2women.comsoc.org/10-women-in-networkingcommunications-that-you-should-know/2016-10-women-in-networkingcommunications-that-you-should-watch/&quot;&gt;here&lt;/a&gt;.
+Congratulations!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 August 2016</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2016-08-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2016/08/30/fallcourse-cs590b-cs690b.html</id>
+		<content type="html">&lt;p&gt;An initial course Web page for &lt;a href=&quot;https://people.cs.umass.edu/%7Ephillipa/?p=cs590690f16&quot;&gt;CS590B/690B&lt;/a&gt; has been posted.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 July 2016</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2016-07-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2016/07/30/pets-best-paper.html</id>
+		<content type="html">&lt;p&gt;Oleksii receives Best Student Paper &amp;ndash; Runner Up for our &lt;a href=&quot;https://people.cs.umass.edu/%7Ephillipa/papers/contactus_pets2016.pdf&quot;&gt;PETS paper&lt;/a&gt;
+about PI leakage in Web forms. Congratulations!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 July 2016</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2016-07-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2016/07/30/camera-ready-of-foci.html</id>
+		<content type="html">&lt;p&gt;Camera ready of our &lt;a href=&quot;https://people.cs.umass.edu/%7Ephillipa/papers/foci16-final16.pdf&quot;&gt;FOCI paper&lt;/a&gt; looking at the relationship between Internet topology and Internet freedom is posted.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 June 2016</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2016-06-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2016/06/30/camera-ready-of-sigcomm.html</id>
+		<content type="html">&lt;p&gt;Camera ready of our &lt;a href=&quot;https://people.cs.umass.edu/%7Ephillipa/papers/sigcomm16posters-final115.pdf&quot;&gt;SIGCOMM poster&lt;/a&gt; about PathCache is available.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 May 2016</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2016-05-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2016/05/30/join-umass-amherst.html</id>
+		<content type="html">&lt;p&gt;Phillipa will be joining the University of Massachusetts at Amherst in Fall 2016.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>25 February 2016</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2016-02-25T00:00:00-05:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2016/02/25/program-committes-for-imc-and-nsdi.html</id>
+		<content type="html">&lt;p&gt;Phillipa will be serving on the program committees for IMC and NSDI this year.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 January 2016</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2016-01-30T00:00:00-05:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2016/01/30/camera-ready-of-ndss-euro.html</id>
+		<content type="html">&lt;p&gt;Camera readies of our NDSS and EuroS&amp;amp;P papers are posted in the publications section.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 October 2015</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2015-10-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2015/10/30/castle-astoria.html</id>
+		<content type="html">&lt;p&gt;Our paper on &lt;a href=&quot;https://arxiv.org/abs/1503.05904&quot;&gt;Castle&lt;/a&gt; is accepted to &lt;a href=&quot;http://www.ieee-security.org/TC/EuroSP2016/&quot;&gt;EuroS&amp;amp;P&lt;/a&gt; and &lt;a href=&quot;https://arxiv.org/abs/1505.05173&quot;&gt;Astoria&lt;/a&gt; is accepted to NDSS! Congrats to Rishab, Bridger and Oleksii on these successful submissions!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 September 2015</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2015-09-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2015/09/30/nsf-large.html</id>
+		<content type="html">&lt;p&gt;Our &lt;a href=&quot;http://www.nsf.gov/awardsearch/showAward?AWD_ID=1518845&amp;amp;HistoricalAwards=false&quot;&gt;Large grant&lt;/a&gt;
+ on censorship got funded! Looking forward to good collaborations in the years
+ahead. Thanks NSF!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 September 2015</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2015-09-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2015/09/30/camera-ready-imc-pets.html</id>
+		<content type="html">&lt;p&gt;Camera readies for our two IMC papers and forthcoming PETS paper can be found on the publications page.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 August 2015</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2015-08-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2015/08/30/program-committee-for-sigcomm.html</id>
+		<content type="html">&lt;p&gt;Phillipa will be serving on the program committee for SIGCOMM &amp;lsquo;16.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 August 2015</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2015-08-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2015/08/30/co-chairing-imc.html</id>
+		<content type="html">&lt;p&gt;Phillipa will be co-chairing IMC 2016 to be held in sunny Los Angeles with John Heidemann of ISI/USC.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 July 2015</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2015-07-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2015/07/30/imc-acceptance.html</id>
+		<content type="html">&lt;p&gt;Our group will have two papers appearing at the Internet Measurement Conference in Japan! Congrats to Arash, Adrian, Abbas, Kevin and Rajesh for their work on traffic differentiation testing and Ruwaifa and Haseeb for their work on measuring routing policies!&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 May 2015</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2015-05-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2015/05/30/nrg-iclab-workshop.html</id>
+		<content type="html">&lt;p&gt;The Networking Research Group hosted the ICLab/Google Workshop on Network Inference at the CEWIT center.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 May 2015</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2015-05-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2015/05/30/hebrew-university-summer-event.html</id>
+		<content type="html">&lt;p&gt;Phillipa will be participating in the Hebrew University Networking Summer event at Hebrew U from June 1-14.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 April 2015</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2015-04-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2015/04/30/wired-magazin.html</id>
+		<content type="html">&lt;p&gt;Wired magazine covers our video game-based covert channel mechanism! (&lt;a href=&quot;https://www.wired.com/2015/04/app-hides-secret-messages-starcraft-style-games/&quot;&gt;Wired article&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/abs/1503.05904&quot;&gt;Technical article&lt;/a&gt;)&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 April 2015</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2015-04-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2015/04/30/talk-iclab-caida-workshop.html</id>
+		<content type="html">&lt;p&gt;Phillipa gave a &lt;a href=&quot;http://www.caida.org/workshops/aims/1503/slides/aims1503_pgill.pdf&quot;&gt;talk&lt;/a&gt; about &lt;a href=&quot;https://iclab.org/&quot;&gt;ICLab&lt;/a&gt; at CAIDA&amp;rsquo;s AIMS workshop, and presented our work on politically motivated adversaries at Berkeley&amp;rsquo;s TRUST Seminar series.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
+            <title>30 March 2015</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2015-03-30T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2015/03/30/isp-traffic-differentitaion-tool.html</id>
+		<content type="html">&lt;p&gt;Want to know if your mobile ISP is shaping specific application traffic? Try our &lt;a href=&quot;http://dd.meddle.mobi/&quot;&gt;Traffic Differentiation Detector&lt;/a&gt; tool!&lt;/p&gt;
+</content>
+	</entry>
+	
+</feed>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calipr: Neural Processing Units</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/sampa.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="/blog/blog.xml">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="https://twiki-edlab.cs.umass.edu/pub/Main/TWikiPreferences/favicon.ico" type="image/vnd.microsoft.icon">
+    </head>
+    <body>      
+        <div class="container">
+          <div class="header">
+            <a href="/">
+                <img src="/img/calipr.jpg"
+                    srcset="/img/calipr.jpg 2x"
+                    alt="Calipr" id="logo">
+            </a>
+            <ul class="nav nav-pills pull-right">
+                  
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/">
+                        Home
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/research/">
+                        Research
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/publications.html">
+                        Publications
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/code.html">
+                        Code
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/people.html">
+                        People
+                      </a>
+                    </li>
+                  
+            </ul>
+          </div>
+
+          
+
+  <h2>Neural Processing Units</h2>
+
+          
+<div class="content">
+<p>This project takes a learning-based approach to the acceleration of
+approximate programs. We introduce a program transformation, called the
+“Parrot transformation,” that selects and trains a neural network to
+mimic a region of imperative code. After the learning transformation
+phase, the compiler replaces the original code with an invocation of a
+low-power accelerator called a “neural processing unit” (NPU). The NPU
+is tightly coupled to the processor’s speculative pipeline, since many
+of the accelerated code regions are small. Since neural networks produce
+inherently approximate results, we define a programming model that
+allows programmers to identify approximable code regions-code that can
+produce imprecise but acceptable results. Mimicking approximable code
+regions with an NPU is both faster and more energy efficient than
+executing the original code. For a set of diverse applications, NPU
+acceleration provides an average whole-application speedup of 2.3x and
+energy savings of 3.0x with quality loss at most 9.6%.</p>
+
+<p>This is a joint project at University of Washington, Microsoft Research,
+and The University of Texas at Austin.</p>
+
+<h3 id="collaborators">Collaborators</h3>
+
+<p><a href="http://www.cs.washington.edu/homes/hadianeh/">Hadi Esmaeilzadeh</a>,
+<a href="http://www.cs.washington.edu/homes/asampson/">Adrian Sampson</a>, <a href="http://www.cs.utexas.edu/users/stamant/">Renee
+St. Amant</a>, <a href="http://www.cs.washington.edu/homes/moreau">Thierry
+Moreau</a>, <a href="http://www.cs.washington.edu/homes/luisceze/">Luis
+Ceze</a>, and <a href="http://research.microsoft.com/en-us/people/dburger/">Doug
+Burger</a>.</p>
+
+<h3 id="publications">Publications</h3>
+
+<p><a href="http://homes.cs.washington.edu/%7Ehadianeh/doc/paper/2012-micro-npu.pdf">Neural Acceleration for General-Purpose Approximate
+Programs.</a>
+Hadi Esmaeilzadeh, Adrian Sampson, Luis Ceze, and Doug Burger. <strong>MICRO
+2012</strong>.</p>
+
+<p><a href="http://homes.cs.washington.edu/%7Ehadianeh/doc/paper/2012-weed-npu.pdf">Towards Neural Acceleration for General-Purpose Approximate
+Computing.</a>
+Hadi Esmaeilzadeh, Adrian Sampson, Luis Ceze, and Doug Burger. <strong>WEED
+2012</strong>.</p>
+
+<p><a href="http://homes.cs.washington.edu/%7Ehadianeh/doc/paper/2012-dasi-npu.pdf">Addressing Dark Silicon Challenges with Disciplined Approximate
+Computing.</a>
+Hadi Esmaeilzadeh, Adrian Sampson, Michael Ringenburg, Luis Ceze, Dan
+Grossman, and Doug Burger. <strong>DaSi 2012</strong>.
+<a href="http://darksilicon.ucsd.edu/2012/assets/slides/13">Slides.</a></p>
+
+</div>
+
+
+      <div class="footer">
+  <p>
+    <a href="https://www.cics.umass.edu/">College of Information and Computer Sciences</a>
+    at the
+    <a href="https://www.umass.edu/">University of Massachusetts, Amherst</a>
+  </p>
+  <p>
+    (Website theme courtesy <a href="https://github.com/uwsampa/research-group-web">SAMPA Lab</a>)
+  </p>
+</div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="/js/srcset-polyfill.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,155 @@
+phillipa:
+    display_name: "Phillipa Gill"
+    webpage: "https://people.cs.umass.edu/~phillipa/"
+    role: faculty
+    image: /img/people/pg.jpg
+    bio: "Assistant Professor"
+
+rachee:
+    display_name: "Rachee Singh"
+    webpage: "http://racheesingh.com"
+    role: phd
+    image: /img/people/rs.jpg
+    bio: "PhD Student at UMass Amherst"
+
+abbas:
+    display_name: "Abbas Razaghpanah"
+    webpage: "http://abbas.rpanah.ir/"
+    role: phd
+    image: /img/people/ar.jpg
+    bio: "PhD Student at Stony Brook University"
+
+rishab:
+    display_name: "Rishab Nithyanand"
+    webpage: "http://rishabn.com/"
+    role: phd
+    image: /img/people/rn.jpg
+    bio: "PhD student at Stony Brook University"
+
+shinyoung:
+    display_name: "Shinyoung Cho"
+    webpage: "http://www3.cs.stonybrook.edu/~shicho/"
+    role: phd
+    image: /img/people/sc.jpg
+    bio: "PhD Student at Stony Brook University"
+
+# Postdocs
+    
+#test:
+#    display_name: "Guy Fawkes"
+#    role: postdoc
+#    webpage: "test"
+#    image: /img/people/test.jpg
+
+# MS Students
+nikhil:
+    display_name: Nikhil Mohan
+    role: ms
+    bio: "M.S. at Stony Brook University"
+
+
+# Undergrads
+xinwen:
+    display_name: Xinwen (Jason) Wang
+    role: ugrad
+    bio: "Undergraduate at Stony Brook University"
+
+
+# Alums
+ruwaifa:
+    display_name: Ruwaifa Anwar
+    role: alum
+    image: /img/people/ra.jpg
+    bio: "M.S. at Stony Brook University"
+
+adrian:
+    display_name: Adrian Li
+    role: alum
+    image: /img/people/al.jpg
+    bio: "M.S. at Stony Brook University"
+
+arpit:
+    display_name: Arpit Singh
+    role: alum
+    bio: "M.S. at Stony Brook University"
+
+ashish:
+    display_name: Ashish Singh
+    role: alum
+    bio: "M.S. at Stony Brook University"
+
+ravi:
+    display_name: Ravi Sadineni
+    role: alum
+    bio: "M.S. at Stony Brook University"
+
+shriya:
+    display_name: Shriya Gupta
+    role: alum
+    bio: "M.S. at Stony Brook University"
+
+praveen:
+    display_name: Praveen Alam
+    role: alum
+    bio: "M.S. at Stony Brook University"
+
+haseeb:
+    display_name: Haseeb Niaz
+    role: alum
+    bio: "M.S. at Stony Brook University"
+
+himanshu:
+    display_name: Himanshu Shah
+    role: alum
+    bio: "M.S. at Stony Brook University"
+
+rajesh:
+    display_name: Rajesh Golani
+    role: alum
+    bio: "M.S. at Stony Brook University"
+
+
+# Collaborators
+srinivas:
+    display_name: Srinivas Muthunoori
+    role: coll
+    bio: "M.S. at Stony Brook University"
+
+eric:
+    display_name: Eric Goren
+    role: coll
+    bio: "High school intern at Stony Brook University"
+
+hyungjoon:
+    display_name: Hyungjoon Koo
+    role: coll
+    bio: "PhD student at Stony Brook University"
+
+taha:
+    display_name: Taha Khan
+    role: coll
+    bio: "PhD Student at Stony Brook University"
+
+tzu:
+    display_name: Tzu-Wen Lee
+    role: coll
+    bio: "PhD Student at Stony Brook University"
+
+haneef:
+    display_name: Haneef Ghanim
+    role: coll
+    bio: "Undergraduate at University of Toronto"
+
+serge:
+    display_name: Serge Gorbunov
+    role: coll
+    bio: "Undergraduate at University of Toronto"
+
+
+
+# Collaborators
+#test-collab:
+#     display_name: Test Collab
+#     role: collab
+#     webpage: "test-collab-page"
+#     bio: "Assistant Professor, Blah Department"

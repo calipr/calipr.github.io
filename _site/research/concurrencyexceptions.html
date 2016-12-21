@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calipr: Concurrency Exceptions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/sampa.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="/blog/blog.xml">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="https://twiki-edlab.cs.umass.edu/pub/Main/TWikiPreferences/favicon.ico" type="image/vnd.microsoft.icon">
+    </head>
+    <body>      
+        <div class="container">
+          <div class="header">
+            <a href="/">
+                <img src="/img/calipr.jpg"
+                    srcset="/img/calipr.jpg 2x"
+                    alt="Calipr" id="logo">
+            </a>
+            <ul class="nav nav-pills pull-right">
+                  
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/">
+                        Home
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/research/">
+                        Research
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/publications.html">
+                        Publications
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/code.html">
+                        Code
+                      </a>
+                    </li>
+                  
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="/people.html">
+                        People
+                      </a>
+                    </li>
+                  
+            </ul>
+          </div>
+
+          
+
+  <h2>Concurrency Exceptions</h2>
+
+          
+<div class="content">
+<p>We argue that concurrency errors should be fail-stop. We want to put
+concurrency errors in the same category as segmentation fault and
+division-by-zero. This would make non-determinism in multithreaded
+execution be much more manageable. Concurrency exceptions would improve
+the debugging process during development and make crashes due to
+concurrency errors that happen in the field be more descriptive. Our
+goal with this project is to justify our position, propose a general
+approach to concurrency exceptions and discuss system requirements and
+implications. Specifically, we are investigating the semantics of
+concurrency exceptions at the language level, their implications in the
+compiler and runtime systems, how they should be delivered and finally
+how all they are enabled by efficient architecture support. In the same
+context, we are exploring the effects of weakening the memory model in
+software reliability.</p>
+
+<p><strong>Current contacts:</strong>
+<a href="http://abstract.cs.washington.edu/%7Eblucia0a/index.cgi">Brandon Lucia</a>,
+<a href="http://www.cs.washington.edu/homes/bpw">Ben Wood</a>, <a href="http://www.cs.washington.edu/homes/luisceze">Luis
+Ceze</a>, <a href="http://www.cs.washington.edu/homes/djg">Dan
+Grossman</a>.</p>
+
+<h3 id="publications">Publications</h3>
+
+<p>Data-Race Exceptions Have Benefits Beyond the Memory Model. Benjamin P.
+Wood, Luis Ceze, Dan Grossman. <strong>MSPC 2011</strong>.</p>
+
+<p>Conflict Exceptions: Providing Simple Parallel Language Semantics with
+Precise Hardware Exceptions (<strong>ISCA 2010</strong>), Brandon Lucia, Luis Ceze,
+Karin Strauss, Shaz Qadeer, Hans Boehm</p>
+
+<p><a href="http://www.cs.washington.edu/homes/luisceze/pubs/hotpar09.pdf">The Case for System Support for Concurrency
+Exceptions</a>
+(<strong>USENIX HotPar 2009</strong>), Luis Ceze, Joseph Devietti, Brandon Lucia and
+Shaz Qadeer.</p>
+
+</div>
+
+
+      <div class="footer">
+  <p>
+    <a href="https://www.cics.umass.edu/">College of Information and Computer Sciences</a>
+    at the
+    <a href="https://www.umass.edu/">University of Massachusetts, Amherst</a>
+  </p>
+  <p>
+    (Website theme courtesy <a href="https://github.com/uwsampa/research-group-web">SAMPA Lab</a>)
+  </p>
+</div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="/js/srcset-polyfill.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>

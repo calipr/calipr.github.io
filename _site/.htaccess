@@ -1,0 +1,87 @@
+ErrorDocument 404 /404.html
+RewriteEngine on
+RewriteBase /
+
+
+
+
+RewriteRule ^sampa/People /people.html [L,R=301]
+
+
+
+RewriteRule ^sampa/Projects /research/ [L,R=301]
+
+
+
+RewriteRule ^sampa/Publications /publications.html [L,R=301]
+
+
+
+RewriteRule ^sampa/EnerJ /research/approximation/enerj.html [L,R=301]
+
+
+
+RewriteRule ^sampa/WebChar /research/webchar.html [L,R=301]
+
+
+
+RewriteRule ^sampa/Concurrency_Bug_Detection_and_Avoidance /research/concurrencybugs.html [L,R=301]
+
+
+
+RewriteRule ^sampa/Concurrency_Exceptions /research/concurrencyexceptions.html [L,R=301]
+
+
+
+RewriteRule ^sampa/Deterministic_MultiProcessing_\(DMP\) /research/dmp.html [L,R=301]
+
+
+
+RewriteRule ^sampa/Grappa /research/grappa.html [L,R=301]
+
+
+
+RewriteRule ^sampa/NPU /research/approximation/npu.html [L,R=301]
+
+
+
+RewriteRule ^sampa/Organized_Sharing_\(OSHA\) /research/osha.html [L,R=301]
+
+
+
+RewriteRule ^sampa/Operating_System_Implications_of_Non-Volatile_Main_Memory_Systems /research/nonvolatile.html [L,R=301]
+
+
+
+RewriteRule ^sampa/Support_for_Explicit_Runtime_Concurrency_Errors /research/concurrencyerrors.html [L,R=301]
+
+
+
+RewriteRule ^sampa/CoreDet_License /research/coredet/license.html [L,R=301]
+
+
+
+RewriteRule ^sampa/CoreDet_Source_Code /research/coredet/source.html [L,R=301]
+
+
+
+RewriteRule ^sampa/Improving_Power_Efficiency_of_Web-Enabled_Mobile_Devices /research/mobileweb.html [L,R=301]
+
+
+
+RewriteRule ^sampa/Seminars /seminars.html [L,R=301]
+
+
+
+RewriteRule ^sampa/Funding / [L,R=301]
+
+
+
+RewriteRule ^sampa/Main_Page / [L,R=301]
+
+
+
+
+
+RewriteRule ^decaf /research/approximation/decaf/ [L,R=301]
+

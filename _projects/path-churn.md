@@ -9,4 +9,5 @@ people:
 
 layout: project
 ---
+Details coming soon!
 <img src="{{site.base}}/img/pathcache.png" class="pull-right" style="width:150px;margin:15px"/>

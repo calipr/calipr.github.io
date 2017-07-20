@@ -19,13 +19,6 @@ abbas:
     image: /img/people/ar.jpg
     bio: "PhD Student at Stony Brook University"
 
-rishab:
-    display_name: "Rishab Nithyanand"
-    webpage: "http://rishabn.com/"
-    role: grad
-    image: /img/people/rn.jpg
-    bio: "PhD student at Stony Brook University"
-
 shinyoung:
     display_name: "Shinyoung Cho"
     webpage: "http://www3.cs.stonybrook.edu/~shicho/"
@@ -33,20 +26,33 @@ shinyoung:
     image: /img/people/sc.jpg
     bio: "PhD Student at Stony Brook University"
 
+arian:
+    display_name: "Arian Niaki"
+    #webpage: "http://racheesingh.com"
+    role: grad
+    image: /img/people/an.jpg
+    bio: "PhD Student at UMass Amherst"
+
 # Postdocs
-    
-#test:
-#    display_name: "Guy Fawkes"
-#    role: postdoc
-#    webpage: "test"
-#    image: /img/people/test.jpg
+rishab:
+    display_name: "Rishab Nithyanand"
+    webpage: "http://rishabn.com/"
+    role: postdoc
+    image: /img/people/rn.jpg
+    bio: "Postdoc at UMass Amherst"
 
 # Undergrads
-xinwen:
-    display_name: Xinwen (Jason) Wang
+adunna:
+    display_name: Arun Dunna
+    webpage: "https://adunna.me/"
     role: ugrad
-    bio: "Undergraduate at Stony Brook University"
+    image: https://adunna.me/assets/images/me.jpg
+    bio: "Undergraduate at UMass Amherst"
 
+jgeenty:
+    display_name: John Geenty
+    role: ugrad
+    bio: "Undergraduate at UMass Amherst"
 
 # Alums
 nikhil:
@@ -106,6 +112,10 @@ rajesh:
     role: alum
     bio: "M.S. at Stony Brook University"
 
+xinwen:
+    display_name: Xinwen (Jason) Wang
+    role: alum
+    bio: "Undergraduate at Stony Brook University"
 
 # Collaborators
 srinivas:

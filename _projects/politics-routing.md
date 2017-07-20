@@ -18,7 +18,6 @@ An interesting from the data-plane and control-plane based AS topologies of coun
 to providing international connectivity, can implement information controls with greater ease. For instance, in Bahrain's Internet topology (blue nodes are international
 ASes and red nodes are Bahrain's ASes), one AS provides most of the international connectivity:
 
-<img src="{{site.base}}/img/bh-topo.png" style="justify-content:center;margin:15px;width:70%"/>
 
 Currently, we are performing a logitudinal analysis of changes in the Internet topologies of countries over the last 5-7 years and finding
 characteristics of the topologies that can be predictive of changes in Internet Freedom.

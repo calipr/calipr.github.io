@@ -195,11 +195,15 @@ ul.project-people {
 /* Slightly better-looking header on mobile. */
 @media screen and (max-width: 767px) {
   .nav-pills {
-    display: block;
-    margin: 0 auto 1em; }
+    display: inline-block;
+    margin: 0 auto 1em;
+    float: none !important; }
+
+  .content {
+    margin-top: 8em; }
 
   .nav-pills .nav-link {
-    padding: .5em .4em; }
+    padding: .5em .2em; }
 
   #logo {
     clear: both;

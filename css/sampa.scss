@@ -79,20 +79,20 @@ a {
 }
 
 .card {
-    
+
     p {
         line-height: 1.4em;
         margin-bottom: 0rem;
     }
-    
+
     a {
         color: black;
     }
-    
+
     a:hover {
         text-decoration: none;
     }
-    
+
     .title {
         display: table;
         .card-title {
@@ -101,17 +101,17 @@ a {
             margin: 0em .5rem;
         }
     }
-    
+
     .card-title {
         // undo extra margin set above for normal headings elsewhere
         h3 { margin-top: 0em; }
         padding-bottom: .5rem;
     }
-    
+
     .card-block {
         padding: 1rem;
     }
-    
+
     img.icon {
         max-height: 2em;
         margin: 0em 0.5rem;
@@ -120,10 +120,10 @@ a {
 
 
 ul.people {
-    
+
     list-style-type: none;
     padding-left: 0em;
-    
+
     $profile-size: 70px;
 
     .profile {
@@ -132,18 +132,18 @@ ul.people {
     }
 
     li {
-        
+
         height: auto;
         display: table;
         margin: .5rem 0rem;
-        
+
         .profile {
             text-align: center;
             display: table-cell;
             margin: .5rem;
             vertical-align: middle;
         }
-        
+
         .person {
             display: table-cell;
             vertical-align: middle;
@@ -158,7 +158,7 @@ ul.people {
         .bio-inline {
             margin-left: 1em
         }
-        
+
         // draw empty gray circle for those without a profile pic
         .noprofile {
             fill: #f5f5f5;
@@ -175,32 +175,32 @@ ul.project-people {
     display: inline;
     list-style-type: none;
     padding-left: 0em;
-    
-    li {        
+
+    li {
         display: inline;
-        
+
         a.person {
             font-weight: normal;
             color: $dark-gray;
-            
+
             position: relative;
             text-align: center;
             vertical-align: top;
             display: inline-block;
-            
+
             width: 2.2rem;
             height: 2.2rem;
-    
+
             img {
                 width: inherit;
                 height: inherit;
             }
-    
+
             .caption {
                 display: none;
             }
-        }   
-    }  
+        }
+    }
 }
 
 .card.link:hover {
@@ -215,7 +215,7 @@ ul.project-people {
     .container {
         max-width: 900px;
     }
-  
+
     .card-columns { @include columns(3); }
 
     ul.grad { @include columns(2); }
@@ -261,7 +261,7 @@ ul.project-people {
     padding-left: 0;
     padding-right: 0;
   }
-  
+
   /* Space out the masthead */
   .header {
     height: 60px;
@@ -278,14 +278,19 @@ ul.project-people {
 @media screen and (max-width: 767px) {
 
     .nav-pills {
-        display: block;
+        display: inline-block;
         margin: 0 auto 1em;
+        float: none !important;
+    }
+
+    .content {
+        margin-top: 8em;
     }
 
     .nav-pills .nav-link {
-        padding: .5em .4em;
+        padding: .5em .2em;
     }
-    
+
     #logo {
         clear: both;
 	height: inherit;
@@ -293,7 +298,7 @@ ul.project-people {
 
     .header {
     	text-align: center;
-    }   
+    }
 }
 
 @media screen and (max-width: 475px){
@@ -317,10 +322,10 @@ dl.people dd {
 /* Front page news. */
 
 ul.news {
-    
+
     list-style-type: none;
     padding-left: 0em;
-    
+
     .icon {
         color: #bbb;
         font-size: 2em;
@@ -328,13 +333,13 @@ ul.news {
         width: 4rem;
         text-align: center;
     }
-        
+
     display: table;
     .text, .icon {
         display: table-cell;
         vertical-align: top;
     }
-    
+
     .date {
         color: $dark-gray;
         font-weight: bold;

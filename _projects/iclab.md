@@ -4,6 +4,7 @@ image: /img/iclab.png
 description: The Information Controls Lab (ICLab) is a research platform to enable researchers to study a broad class of online information controls (e.g., traffic differentiation, censorship, and content modification).
 people:
   - abbas
+  - arian
   - phillipa
 
 layout: project

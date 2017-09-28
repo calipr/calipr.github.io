@@ -3,7 +3,7 @@ title: Detecting BGP Hijacks and Interceptions
 image: /img/bgp-hijack.png
 description: Building tools for real-time detection of BGP hijacks and interceptions.
 people:
-  - ruwaifa
+  - shinyoung
   - phillipa
 
 layout: project

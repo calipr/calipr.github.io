@@ -47,13 +47,13 @@ adnan:
     display_name: "Adnan Bashir" 
     webpage: "https://www.cs.unm.edu/~abashir/"
     role: collab 
-    bio: "PhD Student at University of New Mexico"
+    bio: "PhD Student at University of New Mexico (OTF Fellow)"
 
 zwol:
     display_name: "Zack Weinberg"
     webpage: "https://www.owlfolio.org/"
     role: collab 
-    bio: "PhD Stduent at CMU"
+    bio: "PhD Student at Carnegie Mellon University (OTF Fellow)"
 
 
 # Undergrads

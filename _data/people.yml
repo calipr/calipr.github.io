@@ -33,6 +33,13 @@ arian:
     image: /img/people/an.jpg
     bio: "PhD Student at UMass Amherst"
 
+adunna:
+    display_name: "Arun Dunna"
+    webpage: "https://adunna.me"
+    role: grad
+    image: https://adunna.me/assets/images/me.jpg
+    bio: "M.S. Student at UMass Amherst"
+
 # Postdocs
 rishab:
     display_name: "Rishab Nithyanand"
@@ -57,17 +64,10 @@ zwol:
 
 
 # Undergrads
-adunna:
-    display_name: Arun Dunna
-    webpage: "https://adunna.me/"
-    role: ugrad
-    image: https://adunna.me/assets/images/me.jpg
-    bio: "Undergraduate at UMass Amherst"
-
-jgeenty:
-    display_name: John Geenty
-    role: ugrad
-    bio: "Undergraduate at UMass Amherst"
+#jgeenty:
+#    display_name: John Geenty
+#    role: ugrad
+#    bio: "Undergraduate at UMass Amherst"
 
 # Alums
 nikhil:
@@ -131,6 +131,11 @@ xinwen:
     display_name: Xinwen (Jason) Wang
     role: alum
     bio: "Undergraduate at Stony Brook University"
+
+jgeenty:
+    display_name: John Geenty
+    role: alum
+    bio: "Undergraduate at UMass Amherst"
 
 # Collaborators
 srinivas:

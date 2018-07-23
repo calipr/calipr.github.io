@@ -33,6 +33,16 @@ arian:
     image: /img/people/an.jpg
     bio: "PhD Student at UMass Amherst"
 
+shahrooz:
+    display_name: "Shahrooz Pouryousef"
+    role: grad
+    bio: "PhD Student at UMass Amherst (Coadvised with Arun Venkataramani)"
+
+albertw:
+    display_name: "Albert Williams"
+    role: grad
+    bio: "PhD Student at UMass Amherst"
+
 adunna:
     display_name: "Arun Dunna"
     webpage: "https://adunna.me"
@@ -41,27 +51,26 @@ adunna:
     bio: "M.S. Student at UMass Amherst"
 
 # Postdocs
-rishab:
-    display_name: "Rishab Nithyanand"
-    webpage: "http://rishabn.com/"
-    role: postdoc
-    image: /img/people/rn.jpg
-    bio: "Postdoc at UMass Amherst"
+#rishab:
+#    display_name: "Rishab Nithyanand"
+#    webpage: "http://rishabn.com/"
+#    role: postdoc
+#    image: /img/people/rn.jpg
+#    bio: "Postdoc at UMass Amherst"
 
 
 # OTF Fellows
-adnan:
-    display_name: "Adnan Bashir" 
-    webpage: "https://www.cs.unm.edu/~abashir/"
-    role: collab 
-    bio: "PhD Student at University of New Mexico (OTF Fellow)"
-
 zwol:
     display_name: "Zack Weinberg"
     webpage: "https://www.owlfolio.org/"
     role: collab 
     bio: "PhD Student at Carnegie Mellon University (OTF Fellow)"
 
+pnguyen:
+    display_name: "Phong Nguyen"
+    webpage: "https://homepage.np-tokumei.net/"
+    role: collab
+    bio: "PhD Student at Stony Brook University (OTF Fellow)"
 
 # Undergrads
 #jgeenty:
@@ -136,6 +145,19 @@ jgeenty:
     display_name: John Geenty
     role: alum
     bio: "Undergraduate at UMass Amherst"
+
+adnan:
+    display_name: "Adnan Bashir"
+    webpage: "https://www.cs.unm.edu/~abashir/"
+    role: alum
+    bio: "PhD Student at University of New Mexico (OTF Fellow)"
+
+rishab:
+    display_name: "Rishab Nithyanand"
+    webpage: "http://rishabn.com/"
+    role: alum
+    image: /img/people/rn.jpg
+    bio: "Assistant Professor at University of Iowa"
 
 # Collaborators
 srinivas:

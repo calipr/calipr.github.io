@@ -2,4 +2,5 @@
 layout: default
 title: Code
 ---
-Add Github/Bitbucket links for code here.
+
+Check out our GitHub [here.](https://github.com/sbunrg)

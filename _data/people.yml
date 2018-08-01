@@ -79,11 +79,21 @@ pnguyen:
 #    bio: "Undergraduate at UMass Amherst"
 
 # Alums
-nikhil:
-    display_name: Nikhil Mohan
+rishab:
+    display_name: "Rishab Nithyanand"
+    webpage: "http://rishabn.com/"
     role: alum
-    bio: "M.S. at Stony Brook University"
-
+    image: /img/people/rn.jpg
+    bio: "Assistant Professor at University of Iowa"
+jgeenty:
+    display_name: John Geenty
+    role: alum
+    bio: "Undergraduate at UMass Amherst"
+adnan:
+    display_name: "Adnan Bashir"
+    webpage: "https://www.cs.unm.edu/~abashir/"
+    role: alum
+    bio: "PhD Student at University of New Mexico (OTF Fellow)" 
 ruwaifa:
     display_name: Ruwaifa Anwar
     role: alum
@@ -94,8 +104,11 @@ adrian:
     display_name: Adrian Li
     role: alum
     image: /img/people/al.jpg
+    bio: "M.S. at Stony Brook University"    
+nikhil:
+    display_name: Nikhil Mohan
+    role: alum
     bio: "M.S. at Stony Brook University"
-
 arpit:
     display_name: Arpit Singh
     role: alum
@@ -140,24 +153,6 @@ xinwen:
     display_name: Xinwen (Jason) Wang
     role: alum
     bio: "Undergraduate at Stony Brook University"
-
-jgeenty:
-    display_name: John Geenty
-    role: alum
-    bio: "Undergraduate at UMass Amherst"
-
-adnan:
-    display_name: "Adnan Bashir"
-    webpage: "https://www.cs.unm.edu/~abashir/"
-    role: alum
-    bio: "PhD Student at University of New Mexico (OTF Fellow)"
-
-rishab:
-    display_name: "Rishab Nithyanand"
-    webpage: "http://rishabn.com/"
-    role: alum
-    image: /img/people/rn.jpg
-    bio: "Assistant Professor at University of Iowa"
 
 # Collaborators
 srinivas:

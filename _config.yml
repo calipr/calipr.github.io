@@ -19,7 +19,7 @@ roles:
     - {key: faculty, name: Faculty}
     - {key: postdoc, name: Researchers}
     - {key: grad, name: Graduate Students}
-    - {key: collab, name: Collaborators}
+    - {key: collab, name: Researchers}
     - {key: ugrad, name: Undergraduate Students}
     - {key: alum, name: Alumni}
 

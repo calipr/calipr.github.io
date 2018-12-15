@@ -50,6 +50,11 @@ adunna:
     image: https://adunna.me/assets/images/me.jpg
     bio: "M.S. Student at UMass Amherst"
 
+jchai:
+    display_name: "Jerry Chai"
+    role: grad
+    bio: "M.S. Student at UMass Amherst"
+
 # Postdocs
 #rishab:
 #    display_name: "Rishab Nithyanand"

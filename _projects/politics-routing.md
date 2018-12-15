@@ -7,7 +7,7 @@ people:
   - phillipa
 
 layout: project
-
+status: inactive
 ---
 As part of this study, we investigate the relationship between national policies around freedom of speech and Internet topology in various countries.
 We combine techniques from network measurement and machine learning to identify features of Internet structure at the national level that are the best indicators

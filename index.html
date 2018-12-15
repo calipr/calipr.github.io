@@ -17,11 +17,12 @@ role_remain:
   <p>
       At <b>Calipr</b> we measure Internet phenomena that impact network security, inter-domain routing and Internet censorship.
 Our <a href="{{ site.base }}/research/">research</a> involves building tools and deploying platforms to gather valuable data for empirical analysis. We are a part of the
-<a href="https://www.cics.umass.edu/">College of Information and Computer Sciences</a> at the <a href="https://www.umass.edu/">University of Massachusetts, Amherst</a>.
+<a href="https://www.cics.umass.edu/">College of Information and Computer Sciences</a> at the <a href="https://www.umass.edu/">University of Massachusetts Amherst</a>.
   </p>
 </div>
 
 <h2>News</h2>
+<br>
 <ul class="news">
 {% for post in site.posts limit: site.front_page_news %}
 {% include news-item.html item=post %}
@@ -34,8 +35,8 @@ Our <a href="{{ site.base }}/research/">research</a> involves building tools and
 </ul>
 
 
-<h2>Research Themes</h2>
-
+<h2>Research Projects</h2>
+<br>
 <div class="card-columns">
 {% for p in site.projects %}
 {% if p.status != "inactive" %}
@@ -84,7 +85,7 @@ Our <a href="{{ site.base }}/research/">research</a> involves building tools and
         {% for role in site.roles %}
         {% if grp contains role.key %}
             <h3>{{ role.name }}</h3>
-            <ul class="people {{ role.key }}">
+	    <ul class="people {{ role.key }}">
             {% for item in site.data.people %}
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
@@ -106,7 +107,7 @@ Our <a href="{{ site.base }}/research/">research</a> involves building tools and
                         <svg class="profile"><circle class="noprofile" /></svg>
                     {% endif %}
                     {% if person.webpage %}</a>{% endif %}
-                    <div class="person">
+	    <div class="person"><br>
                     {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
                     <h4>{{person.display_name}}</h4>
                     {% if person.webpage %}</a>{% endif %}
@@ -129,7 +130,7 @@ Our <a href="{{ site.base }}/research/">research</a> involves building tools and
         {% for role in site.roles %}
         {% if grp contains role.key %}
             <h3>{{ role.name }}</h3>
-            <ul class="people {{role.key}}">
+	    <ul class="people {{role.key}}" style="margin-top:1.5em;">
             {% for item in site.data.people %}
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
@@ -148,10 +149,12 @@ Our <a href="{{ site.base }}/research/">research</a> involves building tools and
 
 
 <h2>Funding</h2>
+<br>
 <p>
-Calipr is funded by the National Science Foundation SaTC and NETS programs (CNS-1350720, CNS-1422566, CNS-1651784, CNS-1700657), a Google Faculty Research Award and the Comcast TechFund. [logos]
+Calipr is funded by the National Science Foundation SaTC and NETS programs (CNS-1350720, CNS-1422566, CNS-1651784, CNS-1700657), a Google Faculty Research Award and the Comcast TechFund.  
+<br><br>
 Disclaimer: Any opinions, findings and conclusions or recommendations expressed in research outputs (published papers, talks, blog postings etc.) are those of the author(s) and do not necessarily reflect the views of the sponsors.
 <br><br>
-<img width="150" src="{{ site.base }}/img/nsf.jpg" >&nbsp&nbsp&nbsp&nbsp&nbsp<img width="150" src="{{ site.base }}/img/google.png" >&nbsp&nbsp&nbsp&nbsp&nbsp<img width="150" src="{{ site.base }}/img/Comcast_Logo.svg.png"/> 
-
+<table style="width:100%;"><tr style="width:100%;"><td style="width:33%; text-align:center;"><img width="150" src="{{ site.base }}/img/nsf.jpg" ></td><td style="width:33%; text-align:center;"><img width="150" src="{{ site.base }}/img/google.png"></td><td style="width:33%; text-align:center;"><img width="150" src="{{ site.base }}/img/Comcast_Logo.svg.png"/></td></tr></table>
+<br>
 </p>

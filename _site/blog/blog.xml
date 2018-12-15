@@ -4,7 +4,7 @@
 	<title type="text" xml:lang="en">Calipr</title>
     <link type="application/atom+xml" href="http://calipr.cs.umass.edu/blog/blog.xml" rel="self"/>
     <link href="http://calipr.cs.umass.edu/"/>
-	<updated>2018-08-01T13:11:29-07:00</updated>
+	<updated>2018-12-15T15:27:58-05:00</updated>
     <id>http://calipr.cs.umass.edu/</id>
 	<author>
 		<name>the Sampa group</name>
@@ -13,10 +13,21 @@
 	
 	<entry>
         
+            <title>02 November 2018</title>
+            <link href="http://calipr.cs.umass.edu/blog/"/>
+        
+		<updated>2018-11-02T00:00:00-04:00</updated>
+        <id>http://calipr.cs.umass.edu/blog/2018/11/02/imc_award.html</id>
+		<content type="html">&lt;p&gt;Congrats to Abbas and collaborators for their Distinguished Paper Award at IMC 2018! &lt;a href=&quot;https://eprints.networks.imdea.org/1884/1/imc_ssl.pdf&quot;&gt;Read the paper here.&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+        
             <title>01 August 2018</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2018-08-01T00:00:00-07:00</updated>
+		<updated>2018-08-01T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2018/08/01/sigcomm-radwan.html</id>
 		<content type="html">&lt;p&gt;RADWAN will be presented at &lt;a href=&quot;https://conferences.sigcomm.org/sigcomm/2018/program_thursday.html&quot;&gt;SIGCOMM 2018&lt;/a&gt;! Congrats to Rachee, Phillipa and collaborators! &lt;/p&gt;
 </content>
@@ -27,7 +38,7 @@
             <title>01 August 2018</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2018-08-01T00:00:00-07:00</updated>
+		<updated>2018-08-01T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2018/08/01/imc.html</id>
 		<content type="html">&lt;p&gt;2 papers from our group accepted at IMC 2018! More details coming soon! Congrats to Rachee, Abbas, Phillipa and collaborators!&lt;/p&gt;
 </content>
@@ -38,7 +49,7 @@
             <title>29 July 2018</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2018-07-29T00:00:00-07:00</updated>
+		<updated>2018-07-29T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2018/07/29/foci.html</id>
 		<content type="html">&lt;p&gt;Paper on Tor bridge blocking got accepted to FOCI 2018! Congrats to Arun and Phillipa!&lt;/p&gt;
 </content>
@@ -49,7 +60,7 @@
             <title>22 May 2018</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2018-05-22T00:00:00-07:00</updated>
+		<updated>2018-05-22T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2018/05/22/abbas-sbu.html</id>
 		<content type="html">&lt;p&gt;Abbas&amp;rsquo; work on privacy and tracking in mobile is featured by Stony Brook Computer Science. Click &lt;a href=&quot;https://www.cs.stonybrook.edu/about-us/News/Abbas-Razaghpanah%E2%80%99s-Privacy-Research-Reveals-Tracking-Users-Fair-Game&quot;&gt;here&lt;/a&gt; to read more.&lt;/p&gt;
 </content>
@@ -60,7 +71,7 @@
             <title>08 April 2018</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2018-04-08T00:00:00-07:00</updated>
+		<updated>2018-04-08T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2018/04/08/rachee-google.html</id>
 		<content type="html">&lt;p&gt;Congrats to Rachee on receiving a Google PhD Fellowship! Read more about it &lt;a href=&quot;https://www.cics.umass.edu/news/singh-receives-2018-google-phd-fellowship&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -71,7 +82,7 @@
             <title>08 February 2018</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2018-02-08T00:00:00-08:00</updated>
+		<updated>2018-02-08T00:00:00-05:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2018/02/08/lumen-ndss.html</id>
 		<content type="html">&lt;p&gt;Our paper on studying advertising and tracking on Android using &lt;a href=&quot;https://haystack.mobi&quot;&gt;Lumen&lt;/a&gt; is published at &lt;a href=&quot;https://www.ndss-symposium.org/ndss2018/&quot;&gt;NDSS&lt;/a&gt;! Congrats to Abbas and Rishab!&lt;/p&gt;
 </content>
@@ -82,7 +93,7 @@
             <title>07 September 2017</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2017-09-07T00:00:00-07:00</updated>
+		<updated>2017-09-07T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2017/09/07/conext-tls-churn.html</id>
 		<content type="html">&lt;p&gt;Our papers on studying TLS usage in Android using &lt;a href=&quot;https://haystack.mobi&quot;&gt;Lumen&lt;/a&gt;, and localizing &lt;a href=&quot;https://iclab.org&quot;&gt;Internet censorship&lt;/a&gt; using path churn have been accepted to &lt;a href=&quot;http://conferences2.sigcomm.org/co-next/2017/&quot;&gt;CoNEXT&lt;/a&gt;! Congrats to Abbas, Arian, Rishab, and Shinyong!&lt;/p&gt;
 </content>
@@ -93,7 +104,7 @@
             <title>16 August 2017</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2017-08-16T00:00:00-07:00</updated>
+		<updated>2017-08-16T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2017/08/16/phillipa-mit-tr35.html</id>
 		<content type="html">&lt;p&gt;Congratulations to Phillipa for her inclusion in MIT Technology Review&amp;rsquo;s &lt;a href=&quot;https://www.technologyreview.com/lists/innovators-under-35/2017/&quot;&gt;35 Innovators Under 35&lt;/a&gt; list!&lt;/p&gt;
 </content>
@@ -104,7 +115,7 @@
             <title>28 July 2017</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2017-07-28T00:00:00-07:00</updated>
+		<updated>2017-07-28T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2017/07/28/liberate-imc.html</id>
 		<content type="html">&lt;p&gt;Our paper titled &amp;ldquo;&lt;strong&gt;lib•erate&lt;/strong&gt;, &lt;em&gt;(n)&lt;/em&gt;: &lt;em&gt;A library for exposing (traffic-classification) rules and avoiding them efficiently&lt;/em&gt;&amp;rdquo; is accepted to IMC! Congratulations to Abbas and Arian!&lt;/p&gt;
 </content>
@@ -115,7 +126,7 @@
             <title>11 July 2017</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2017-07-11T00:00:00-07:00</updated>
+		<updated>2017-07-11T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2017/07/11/lumen-daily-dot.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.dailydot.com/debug/lumen-apps-leak-personal-data/&quot;&gt;The Daily Dot&lt;/a&gt; interviewed Abbas in their coverage of Lumen!&lt;/p&gt;
 </content>
@@ -126,7 +137,7 @@
             <title>01 June 2017</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2017-06-01T00:00:00-07:00</updated>
+		<updated>2017-06-01T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2017/06/01/lumen-conversation.html</id>
 		<content type="html">&lt;p&gt;Lumen was featured in &lt;a href=&quot;http://theconversation.com/7-in-10-smartphone-apps-share-your-data-with-third-party-services-72404&quot;&gt;The Conversation&lt;/a&gt; and &lt;a href=&quot;http://www.newsweek.com/online-privacy-data-driven-companies-facebook-and-google-have-access-7-out-10-618782&quot;&gt;Newsweek&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -137,7 +148,7 @@
             <title>21 November 2016</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2016-11-21T00:00:00-08:00</updated>
+		<updated>2016-11-21T00:00:00-05:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2016/11/21/rishab-graduation.html</id>
 		<content type="html">&lt;p&gt;Rishab successfully defended his thesis! Congratulations!&lt;/p&gt;
 </content>
@@ -148,7 +159,7 @@
             <title>30 August 2016</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2016-08-30T00:00:00-07:00</updated>
+		<updated>2016-08-30T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2016/08/30/n2women-pg.html</id>
 		<content type="html">&lt;p&gt;Phillipa is nominated as N2Women&amp;rsquo;s 10 women in networking/communication to watch. Read about all the nominees
 &lt;a href=&quot;http://n2women.comsoc.org/10-women-in-networkingcommunications-that-you-should-know/2016-10-women-in-networkingcommunications-that-you-should-watch/&quot;&gt;here&lt;/a&gt;.
@@ -161,7 +172,7 @@ Congratulations!&lt;/p&gt;
             <title>30 August 2016</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2016-08-30T00:00:00-07:00</updated>
+		<updated>2016-08-30T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2016/08/30/fallcourse-cs590b-cs690b.html</id>
 		<content type="html">&lt;p&gt;An initial course Web page for &lt;a href=&quot;https://people.cs.umass.edu/%7Ephillipa/?p=cs590690f16&quot;&gt;CS590B/690B&lt;/a&gt; has been posted.&lt;/p&gt;
 </content>
@@ -172,7 +183,7 @@ Congratulations!&lt;/p&gt;
             <title>30 July 2016</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2016-07-30T00:00:00-07:00</updated>
+		<updated>2016-07-30T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2016/07/30/pets-best-paper.html</id>
 		<content type="html">&lt;p&gt;Oleksii receives Best Student Paper &amp;ndash; Runner Up for our &lt;a href=&quot;https://people.cs.umass.edu/%7Ephillipa/papers/contactus_pets2016.pdf&quot;&gt;PETS paper&lt;/a&gt;
 about PI leakage in Web forms. Congratulations!&lt;/p&gt;
@@ -184,7 +195,7 @@ about PI leakage in Web forms. Congratulations!&lt;/p&gt;
             <title>30 July 2016</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2016-07-30T00:00:00-07:00</updated>
+		<updated>2016-07-30T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2016/07/30/camera-ready-of-foci.html</id>
 		<content type="html">&lt;p&gt;Camera ready of our &lt;a href=&quot;https://people.cs.umass.edu/%7Ephillipa/papers/foci16-final16.pdf&quot;&gt;FOCI paper&lt;/a&gt; looking at the relationship between Internet topology and Internet freedom is posted.&lt;/p&gt;
 </content>
@@ -195,7 +206,7 @@ about PI leakage in Web forms. Congratulations!&lt;/p&gt;
             <title>30 June 2016</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2016-06-30T00:00:00-07:00</updated>
+		<updated>2016-06-30T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2016/06/30/camera-ready-of-sigcomm.html</id>
 		<content type="html">&lt;p&gt;Camera ready of our &lt;a href=&quot;https://people.cs.umass.edu/%7Ephillipa/papers/sigcomm16posters-final115.pdf&quot;&gt;SIGCOMM poster&lt;/a&gt; about PathCache is available.&lt;/p&gt;
 </content>
@@ -206,7 +217,7 @@ about PI leakage in Web forms. Congratulations!&lt;/p&gt;
             <title>30 May 2016</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2016-05-30T00:00:00-07:00</updated>
+		<updated>2016-05-30T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2016/05/30/join-umass-amherst.html</id>
 		<content type="html">&lt;p&gt;Phillipa will be joining the University of Massachusetts at Amherst in Fall 2016.&lt;/p&gt;
 </content>
@@ -217,20 +228,9 @@ about PI leakage in Web forms. Congratulations!&lt;/p&gt;
             <title>25 May 2016</title>
             <link href="http://calipr.cs.umass.edu/blog/"/>
         
-		<updated>2016-05-25T00:00:00-07:00</updated>
+		<updated>2016-05-25T00:00:00-04:00</updated>
         <id>http://calipr.cs.umass.edu/blog/2016/05/25/filterwatch-abbas.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://smallmedia.org.uk&quot;&gt;Small Media UK&lt;/a&gt; interviewed Abbas for their Filterwath &lt;a href=&quot;https://smallmedia.org.uk/news/filterwatch-episode-5-measuring-internet-censorshi&quot;&gt;podcast&lt;/a&gt; series.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-        
-            <title>30 April 2016</title>
-            <link href="http://calipr.cs.umass.edu/blog/"/>
-        
-		<updated>2016-04-30T00:00:00-07:00</updated>
-        <id>http://calipr.cs.umass.edu/blog/2016/04/30/iclab-smallmediareport.html</id>
-		<content type="html">&lt;p&gt;&lt;a href=&quot;https://smallmedia.org.uk&quot;&gt;Small Media UK&lt;/a&gt; published a &lt;a href=&quot;https://smallmedia.org.uk/news/iiip-april-2016&quot;&gt;report&lt;/a&gt; in collaboration with ICLab as part of their IIIP Report series.&lt;/p&gt;
 </content>
 	</entry>
 	

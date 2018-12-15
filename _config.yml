@@ -17,7 +17,6 @@ permalink: /blog/:year/:month/:day/:title.html
 # Sections on the "people" page.
 roles:
     - {key: faculty, name: Faculty}
-    - {key: postdoc, name: Researchers}
     - {key: grad, name: Graduate Students}
     - {key: collab, name: Researchers}
     - {key: ugrad, name: Undergraduate Students}
@@ -45,6 +44,8 @@ navigation:
       link: /code.html
     - title: People
       link: /people.html
+    - title: ICLab
+      link: https://iclab.org
 
 # Rewriting of old path names.
 wiki_redirects:

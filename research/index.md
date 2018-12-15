@@ -4,11 +4,9 @@ title: Research Projects
 projects:
 ---
 
-Overview of our research here.
-
 ### Active Projects
 
-<div class="card-columns">
+<div class="card-columns" style="margin-top:4em;">
 {% for p in site.projects %}
 {% if p.status != "inactive" %}
 <div class="card {%if p.link or p.url%}link{%endif%}">
@@ -50,7 +48,7 @@ Overview of our research here.
 
 ### Completed Projects
 
-<div class="card-columns">
+<div class="card-columns" style="margin-top:4em;">
 {% for p in site.projects %}
 {% if p.status == "inactive" %}
 <div class="card {%if p.link or p.url%}link{%endif%}">

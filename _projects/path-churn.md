@@ -9,5 +9,6 @@ people:
   - phillipa
 
 layout: project
+status: inactive
 ---
 Details coming soon!
